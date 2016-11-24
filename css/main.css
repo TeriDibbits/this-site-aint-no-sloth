@@ -17,6 +17,21 @@ html {
   box-sizing: inherit;
 }
 
+.masthead {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+}
+
 h1 {
   font-family: Verdana;
+  height: 20em;
+}
+
+figure {
+  border-top: 3px;
+  border-bottom: 3px;
+}
+
+.title {
+  display: none;
 }
