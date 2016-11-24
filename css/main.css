@@ -28,9 +28,9 @@ img {
   width: 100%;
 }
 
-figure {
-  border-top: 3px;
-  border-bottom: 3px;
+.border {
+  border-top: 3px solid #bea586;
+  border-bottom: 3px solid #bea586;
 }
 
 .title {
