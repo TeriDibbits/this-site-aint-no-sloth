@@ -10,21 +10,21 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: Georgia;
+  font-family: Verdana;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.masthead {
-  background-image: url("../images/banner.jpg");
-  background-repeat: no-repeat;
+h1 {
+  font-family: Georgia;
+  color: #fff;
+  fill: linear-gradient(to top, rgba(28, 14, 0, 0) 50%);
 }
 
-h1 {
-  font-family: Verdana;
-  height: 20em;
+img {
+  width: 100%
 }
 
 figure {
@@ -34,4 +34,14 @@ figure {
 
 .title {
   display: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    background-image: url("../images/logo.svg");
+    background-size: 48px;
+    color: #bea586;
+  }
+
 }
